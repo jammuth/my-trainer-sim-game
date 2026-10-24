@@ -9,8 +9,12 @@ This file is read automatically by Claude Code at the start of every session in 
 
 ## Project Overview
 
-<!-- FILL IN PER PROJECT -->
-<!-- 2-4 sentences: what this project is, who it's for, and any context that should change how Claude approaches it (e.g. "payment logic, correctness is non-negotiable" vs "hobby project, move fast"). -->
+**Trainer Sim** — a single-character, stat-raising management sim (adults only, 18+, high fantasy) in the vein of Slave Maker and Princess Maker 2. The player is a guild trainer who schedules a trainee's days over a 70-day contract (8 day slots + 4 evening slots per day) and is graded on her final stats, which pick one of three v1 endings. Content (characters, events, art) loads as drop-in data packs so the game is moddable; v1 is text-only.
+
+- **Design doc:** [docs/game-design.md](docs/game-design.md) — the source of truth for the design; read it before working on gameplay, and update it in the same change when a design decision is made or changed. The original online draft is no longer kept in sync, so don't treat it as current.
+- **Stack:** Godot, Linux-only for v1. Personal hobby project, no public release yet — favour getting a playable loop over polish.
+- **Content rule:** every character is original (or properly licensed) and unambiguously adult; keep it that way in any content or mod tooling.
+- **Undecided** (see the doc's Open questions): final stat list, exact stat/pay/threshold numbers, praise/punishment effects. Ask rather than invent these.
 
 ---
 
